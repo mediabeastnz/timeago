@@ -1,6 +1,6 @@
 <?php
 
-namespace mediabeastnz\timediff\twigextensions;
+namespace mediabeastnz\timeago\twigextensions;
 
 use Craft;
 
@@ -37,10 +37,10 @@ class TwigExtensionDate extends \Twig_Extension
     public function getFilters()
     {
         return array(
-            new \Twig_SimpleFilter('time_diff', array($this, 'diff'), array(
+            new \Twig_SimpleFilter('time_ago', array($this, 'diff'), array(
                 'needs_environment' => true
             )),
-            new \Twig_SimpleFilter('time_diff_array', array($this, 'diff_array'), array(
+            new \Twig_SimpleFilter('time_ago_array', array($this, 'diff_array'), array(
                 'needs_environment' => true
             )),
         );

@@ -17,7 +17,7 @@ use craft\events\PluginEvent;
 
 use yii\base\Event;
 
-use mediabeastnz\timediff\twigextensions\TwigExtensionDate;
+use mediabeastnz\timeago\twigextensions\TwigExtensionDate;
 
 /**
  * Class TimeAgo
