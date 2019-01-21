@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-          "mediabeastnz\\timeAgo\\": "src/"
+          "mediabeastnz\\timeago\\": "src/"
         }
     },
     "extra": {
@@ -36,6 +36,6 @@
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/mediabeastnz/timeago/master/CHANGELOG.md",
-        "class": "mediabeastnz\\timeAgo\\TimeAgo"
+        "class": "mediabeastnz\\timeago\\TimeAgo"
     }
 }
