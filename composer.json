@@ -1,0 +1,41 @@
+{
+    "name": "mediabeastnz/timeago",
+    "description": "Craft 3 Time-Ago Twig Filter",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "time ago",
+        "time diff"
+    ],
+    "support": {
+        "docs": "https://github.com/mediabeastnz/timeago/blob/master/README.md",
+        "issues": "https://github.com/mediabeastnz/timeago/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Myles Derham",
+            "homepage": "https://github.com/mediabeastnz"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "mediabeastnz\\timeAgo\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Time Ago",
+        "handle": "timeago",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/mediabeastnz/timeago/master/CHANGELOG.md",
+        "class": "mediabeastnz\\timeAgo\\TimeAgo"
+    }
+}
