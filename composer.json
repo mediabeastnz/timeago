@@ -2,7 +2,7 @@
     "name": "mediabeastnz/timeago",
     "description": "Craft 3 Time-Ago Twig Filter",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
